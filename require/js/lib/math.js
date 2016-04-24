@@ -16,6 +16,7 @@ define(function (){
     return {
         add: add,                 // 第一个add表示对外暴露的方法名，第二个add表示该方法对应于第二行定义的add方法
         minus: minus,
+        doSomething: doSomething,
         magicNumber: magicNumber  // 暴露变量
                                   // 不暴露useless方法
     };
