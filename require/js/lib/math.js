@@ -1,4 +1,5 @@
 define(function (){
+    var that=this;
     var magicNumber = 42;
     var add = function (x,y){     //每个函数都以变量的形式定义
         return x+y;
@@ -6,6 +7,9 @@ define(function (){
     var minus = function (x,y){
         return x-y;
     };
+    var doSomething = function (x){
+        return x+that.magicNumber;
+    }
     var useless = function (x,y){
         return 0;
     };
